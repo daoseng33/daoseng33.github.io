@@ -26,5 +26,9 @@
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
-  }
+  },
+  "markdown.copyFiles.destination": {
+    "**/*.md": "/assets/images/${documentBaseName}/"
+  },
+  "markdown.suggest.paths.enabled": true
 }
