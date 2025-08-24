@@ -204,6 +204,11 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+include:
+  - assets
+
+keep_files:
+  - assets
 
 exclude:
   - "*.gem"
