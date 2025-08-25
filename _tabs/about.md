@@ -3,6 +3,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
+# **關於灰帽誌**
+這裡是灰帽誌，灰帽子是一名軟體工程師，同時也是一名飽受身心疾病所苦的渡世人。
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+灰帽精神代表著我們不是非黑及白的價值觀，即使是一件打破傳統道德觀或是某種網路集體共識的事情，我們仍思考他背後的前因後果、童年與後天資訊的養成、正反兩方的立場、以及最重要的人性。
+
+灰帽不只是駭客技術上的攻防手段，他更深層的是一種人生價值觀。
