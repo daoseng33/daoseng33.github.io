@@ -23,13 +23,6 @@
   // Stylint extension settings
   "stylelint.snippet": ["css", "scss"],
   "stylelint.validate": ["css", "scss"],
-  "pasteImage.path": "${projectRoot}/assets/images/${currentFileNameWithoutExt}",
-  "pasteImage.basePath": "${projectRoot}",
-  "pasteImage.forceUnixStyleSeparator": true,
-  "pasteImage.insertPattern": "![](${imageFilePath})",
-  "pasteImage.path.replace": [
-    ["^\\.\\./assets", "/assets"]
-  ],
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
