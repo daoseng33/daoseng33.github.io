@@ -87,5 +87,6 @@
     }
   ],
   "frontMatter.git.enabled": true,
-  "frontMatter.global.timezone": "GMT"
+  "frontMatter.global.timezone": "UTC+08:00",
+  "frontMatter.templates.prefix": ""
 }
