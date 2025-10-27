@@ -9,4 +9,4 @@ order: 4
 
 灰帽不僅是一種駭客文化的思維模式，更是一種人生哲學：以理性與共感並行的方式，在灰色地帶中探索真實與價值。
 
-![Aiden](../assets/images/about/6fgvwca520j51.webp)
+![alt text](../assets/images/about/HD-wallpaper-aiden-pearce-and-the-anonymous-watcogs-resurgence-watch-dogs-legion-watch-dogs-3-watch-dogs-games-2021-games-artstation.jpg)
