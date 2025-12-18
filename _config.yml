@@ -25,7 +25,7 @@ description: Reppin' for that low life.
 url: "https://lowlifenowife.com"
 
 # github:
-#   username: daoseng33 # change to your GitHub username
+  username: daoseng33 # change to your GitHub username
 
 twitter:
   username: lowlife_nowife # change to your Twitter username
@@ -37,7 +37,7 @@ social:
   email: lc.ray2011@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/daoseng33 # change to your GitHub homepage
+    # - https://github.com/daoseng33 # change to your GitHub homepage
     - https://x.com/lowlife_nowife # change to your Twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
