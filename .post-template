@@ -1,12 +1,7 @@
 ---
-layout: post
-title: 標題待填寫
-date: 2025-01-01 00:00 +0800
-categories: [分類待填寫]
-tags: [標籤待填寫]
-image_path: /assets/images/
+title: TITLE
+date: YYYY-MM-DD HH:MM:SS +/-TTTT
+categories: [TOP_CATEGORY, SUB_CATEGORY]
+tags: [TAG]     # TAG names should always be lowercase
+lastmod: YYYY-MM-DD HH:MM:SS +/-TTTT
 ---
-
-在這裡撰寫文章內容。
-
-> 可根據需要調整日期、分類與標籤。
