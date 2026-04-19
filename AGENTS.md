@@ -59,6 +59,26 @@ lastmod: "<同 date；若修改既有文章則更新為當下台北時間>"
 - 修改既有文章時，若有實質內容變更，更新 `lastmod` 為當下台北時間。
 - 不要任意改動既有文章的 `date`，除非使用者明確要求。
 
+## Dev Container 與 Git 工作流
+
+- 若專案已用 VS Code Dev Container 開啟，文章編輯與 Jekyll 驗證優先在 container 內執行。
+- Container 內的專案路徑通常是：
+  `/workspaces/daoseng33.github.io`
+- Mac 本機專案路徑是：
+  `/Users/daoseng33/Workspace/daoseng33.github.io`
+- Dev Container 內的檔案是本機 repo 的掛載內容，修改文章、草稿與設定會同步反映到本機工作樹。
+- 新增或修改文章後，優先在 container 內執行：
+  `./tools/test.sh`
+  或：
+  `bundle exec jekyll build`
+- `commit` 與 `push` 優先在 Mac 本機執行，避免 container 內 SSH key、ssh-agent、GitHub 認證與本機不一致。
+- 若必須在 container 內 push，需先確認：
+  `ssh -T git@github.com`
+  與：
+  `ssh-add -l`
+  都正常。
+- 若 container 內 build 通過、本機 commit/push，提交前仍需在最終使用的環境確認 `git status`，避免提交到錯誤路徑或漏掉檔案。
+
 ## 驗證
 
 - 新增或修改文章後，建議執行：
