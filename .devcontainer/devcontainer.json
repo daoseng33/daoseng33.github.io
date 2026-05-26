@@ -1,6 +1,9 @@
 {
   "name": "Jekyll",
   "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/powershell:1": {}
+  },
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "postCreateCommand": "bash .devcontainer/post-create.sh",
   "customizations": {
@@ -21,6 +24,8 @@
         "esbenp.prettier-vscode",
         "stylelint.vscode-stylelint",
         "yzhang.markdown-all-in-one",
+        // PowerShell scripts
+        "ms-vscode.powershell",
         // Git
         "mhutchie.git-graph"
       ]
